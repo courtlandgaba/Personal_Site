@@ -55,17 +55,16 @@ li {
 .left {
     background-color: rgb(214, 205, 189);
     height: 700px;
-    border-right: 1px solid rgba(18, 18, 18, 0.51);
 }
 
 .name {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
     color: white;
     letter-spacing: 0px;
     background-color: rgb(10, 17, 31);
     text-transform: uppercase;
-    padding: 10px;
+    padding: 14px;
 
 }
 
@@ -158,7 +157,8 @@ li a {
 li a:hover,
 li a:focus {
   background: rgb(199, 50, 38);
-  color: #fff;
+  color: white;
+  width: 100%;
 }
 
 
@@ -247,7 +247,9 @@ li a:focus {
     background-color: white;
     height: 280px;
 }
-
+.fixed {
+    position: fixed;
+}
 
 .right {
     overflow-y: scroll;
@@ -256,26 +258,16 @@ li a:focus {
 }
 
 .slide {
-    height: 700px;
+    min-height: 700px;
 }
 
 .introTop {
     color: white;
     font-weight: 100;
-    font-size: 70px;
+    font-size: 6.5vw;
     text-transform: uppercase;
-    letter-spacing: 15px;
-    padding: 35px 20px 0px 40px;
-    display: inline-block;
-
-}
-.introBottom {
-    color: white;
-    font-weight: 100;
-    font-size: 70px;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    padding: 20px 20px 0px 40px;
+    letter-spacing: 5px;
+    padding: 1vw 0px 0px 2vw;
     display: inline-block;
 
 }
