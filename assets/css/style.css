@@ -1,0 +1,251 @@
+body {
+    overflow: hidden;
+    max-height: 100vh;
+}
+input {
+    display: block;
+}
+textarea {
+    display: block;
+}
+button {
+    display: block;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.containerBody {
+    margin: 40px 55px;
+}
+.containerSlide {
+    padding: 10px;
+}
+.leftText {
+    text-align: left;
+}
+.centerText {
+    text-align: center;
+}
+.rightText {
+    text-align: right;
+}
+.noPadding {
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.hide {
+    display:none;
+}
+
+
+
+
+
+.left {
+    background-color: rgb(194, 212, 216);
+    height: 700px;
+}
+
+.nameContainer {
+    height: 70px;
+    background-color: rgb(244, 244, 244);
+    padding: 5px 20px;
+}
+.name {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: rgb(18,18,18);
+    letter-spacing: 4px;
+}
+
+
+.menu {
+    background-color: white;
+    position: absolute;
+
+}
+#menu-button {
+  border: 2px solid rgba(41, 37, 47, .3);
+  background: rgba(41, 37, 47, 1);
+  padding: 23px;
+  position: absolute;
+  transition: background 750ms ease-in-out;
+  user-select: none;
+}
+
+.menu-open #menu-button {
+  background: rgba(41, 37, 47, 0);
+}
+
+.hamburger {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  transition: transform 750ms ease-in-out;
+}
+
+#menu-button:active .hamburger {
+  transition: transform 50ms;
+  transform: scale(.95);
+}
+
+.hamburger::before, .hamburger::after, .hamburger .inner {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background: #ccc;
+  transform-origin: 100% 50%;
+  transition: all 750ms ease-in-out;
+}
+.hamburger::before {
+  top: -1px;
+}
+.hamburger .inner {
+  top: 9px;
+  transform-origin: 50% 50%;
+}
+.hamburger::after {
+  top: 19px;
+}
+
+.menu-open .hamburger {
+  transform: rotateY(-180deg);
+}
+.menu-open #menu-button:active .hamburger {
+  transform: scale(.95) rotateY(-180deg);
+}
+
+.menu-open .hamburger::before,
+.menu-open .hamburger::after,
+.menu-open .hamburger .inner {
+  background: rgba(41, 37, 47, 1);
+}
+
+.menu-open .hamburger::before {
+  transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);
+}
+.menu-open .hamburger .inner {
+  transform: rotateY(-90deg);
+  transition: transform 375ms, background-color 750ms ease-in-out;
+}
+.menu-open .hamburger::after {
+  transform: translate3d(-4px, -1px, 0) rotateZ(45deg);
+}
+
+
+
+
+
+.title {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    color: rgb(18,18,18);
+    letter-spacing: 4px;
+}
+.subtitle {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(18,18,18);
+}
+.containerContactBody {
+    padding-top: 100px;
+}
+.text-large {
+    font-family: 'Scheherazade', serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(18,18,18);
+    text-transform: uppercase;
+}
+.text-small {
+    font-family: 'Scheherazade', serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(18,18,18);
+}
+.contact-input, .contact-textarea {
+    width: 100%;
+    border: 1px solid rgb(18,18,18);
+    background-color: white;
+    color: rgb(18,18,18);
+    font-size: 1.250em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: none;
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding: 8px, 12px;
+    outline:none;
+}
+.contact-input {
+    height: 50px;
+}
+.contact-button {
+    display: block;
+    height: 50px;
+    background-color: rgb(18,18,18);
+    color: white;
+    font-size: 1.250em;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    cursor:pointer;
+}
+
+.work-box {
+    background-color: #abcee6;
+    height: 250px;
+}
+
+
+.right {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 700px;
+}
+
+.slide {
+    height: 700px;
+}
+
+.slide1 {
+    background-color: rgb(250,250,250);
+}
+
+.slide2 {
+    background-color: rgb(254, 254, 254);
+}
+.slide3 {
+    background-color: rgb(250,250,250);
+}
+.slide4 {
+    background-color: rgb(254, 254, 254);
+}
+.slide5 {
+    background-color: rgb(250,250,250);
+}
+
+
+
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(18,18,18);
+    -webkit-border-radius: 0ex;
+}
