@@ -2,7 +2,8 @@ input {
     display: block;
 }
 body {
-    background-color: rgba(18, 18, 18, 0.07);
+    background-color: white;
+    overflow: hidden;
 }
 textarea {
     display: block;
@@ -49,21 +50,21 @@ li {
 
 
 .left {
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(214, 205, 189);
     height: 700px;
     border-right: 1px solid rgba(18, 18, 18, 0.19);
 }
 
 .nameContainer {
     height: 70px;
-    background-color: rgb(233, 233, 223);
+    background-color: rgb(10, 17, 31);
     padding: 5px 20px;
 }
 .name {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 45px;
     font-weight: 100;
-    color: rgb(6, 57, 106);
+    color: white;
     letter-spacing: 4px;
 }
 
@@ -155,7 +156,7 @@ li a {
 }
 li a:hover,
 li a:focus {
-  background: rgb(6, 57, 106);
+  background: rgb(199, 50, 38);
   color: #fff;
 }
 
@@ -169,7 +170,7 @@ li a:focus {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 45px;
     font-weight: 200;
-    color: rgb(6, 57, 106);
+    color: white;
     letter-spacing: 4px;
 }
 .menuItems {
@@ -183,7 +184,7 @@ li a:focus {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 20px;
     font-weight: 100;
-    color: rgb(6, 57, 106);
+    color: white;
 }
 .containerContactBody {
     padding-top: 100px;
@@ -192,14 +193,14 @@ li a:focus {
     font-family: 'Scheherazade', serif;
     font-size: 20px;
     font-weight: 100;
-    color: rgb(6, 57, 106);
+    color: white;
     text-transform: uppercase;
 }
 .text-small {
     font-family: 'Scheherazade', serif;
     font-size: 20px;
     font-weight: 100;
-    color: rgb(6, 57, 106);
+    color: white;
 }
 .contact-input, .contact-textarea {
     width: 100%;
@@ -221,7 +222,7 @@ li a:focus {
 .contact-button {
     display: block;
     height: 50px;
-    background-color: rgb(6, 57, 106);
+    background-color: rgb(199, 50, 38);
     color: white;
     font-size: 1.250em;
     border: none;
@@ -249,20 +250,29 @@ li a:focus {
 }
 
 .slide1 {
-    background-image: url('http://subtlepatterns.com/patterns/white_wall_hash.png');
+    background-color: #568de5;
+}
+.slide1top {
+    background-image: url('http://subtlepatterns.com/patterns/diagmonds.png');
+    height: 350px
+
+}
+.slide1bottom {
+    background-color: rgb(18,18,18);
+    height: 350px
 }
 
 .slide2 {
-    background-color: rgb(243, 242, 234);
+    background-color: rgb(29, 153, 221);
 }
 .slide3 {
-    background-image: url('http://subtlepatterns.com/patterns/white_wall_hash.png');
+    background-color: rgb(18,18,18);
 }
 .slide4 {
-    background-color: rgb(243, 242, 234);
+    background-color: rgb(29, 153, 221);
 }
 .slide5 {
-    background-image: url('http://subtlepatterns.com/patterns/white_wall_hash.png');
+    background-color: rgb(18,18,18);
 }
 
 
@@ -274,6 +284,6 @@ li a:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(6, 57, 106);
+    background: rgb(199, 50, 38);
     -webkit-border-radius: 0ex;
 }
