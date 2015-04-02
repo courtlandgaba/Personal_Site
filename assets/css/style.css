@@ -61,7 +61,6 @@ li {
     padding: 5px 20px;
 }
 .name {
-    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 45px;
     font-weight: 100;
     color: white;
@@ -167,21 +166,18 @@ li a:focus {
 }
 
 .title {
-    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 45px;
     font-weight: 200;
     color: white;
     letter-spacing: 4px;
 }
 .menuItems {
-    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 30px;
     font-weight: 200;
     color: rgb(6, 57, 106);
     letter-spacing: 4px;
 }
 .subtitle {
-    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 20px;
     font-weight: 100;
     color: white;
@@ -190,14 +186,12 @@ li a:focus {
     padding-top: 100px;
 }
 .text-large {
-    font-family: 'Scheherazade', serif;
     font-size: 20px;
     font-weight: 100;
     color: white;
     text-transform: uppercase;
 }
 .text-small {
-    font-family: 'Scheherazade', serif;
     font-size: 20px;
     font-weight: 100;
     color: white;
@@ -249,6 +243,30 @@ li a:focus {
     height: 700px;
 }
 
+.introTop {
+    color: white;
+    font-weight: 100;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    padding: 35px 20px 0px 40px;
+    display: inline-block;
+
+}
+.introBottom {
+    color: white;
+    font-weight: 100;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    padding: 20px 20px 0px 40px;
+    display: inline-block;
+
+}
+.redIntro {
+    display: inline-block;
+    color: rgb(199, 50, 38);
+}
 .slide1 {
     background-color: #568de5;
 }
