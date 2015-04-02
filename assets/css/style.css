@@ -33,6 +33,9 @@ ul {
 .noPadding {
     padding: 0;
 }
+.noMargin {
+    margin:0;
+}
 a {
     text-decoration: none;
 }
@@ -52,16 +55,18 @@ li {
 .left {
     background-color: rgb(214, 205, 189);
     height: 700px;
-    border-right: 1px solid rgba(18, 18, 18, 0.19);
+    border-right: 1px solid rgba(18, 18, 18, 0.51);
 }
 
 .name {
-    font-size: 45px;
-    font-weight: 100;
+    font-size: 35px;
+    font-weight: 300;
     color: white;
-    letter-spacing: 4px;
-    height: 70px;
+    letter-spacing: 0px;
     background-color: rgb(10, 17, 31);
+    text-transform: uppercase;
+    padding: 10px;
+
 }
 
 
@@ -163,10 +168,12 @@ li a:focus {
 }
 
 .title {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 100;
     color: white;
     letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 10px;
 }
 .menuItems {
     font-size: 30px;
@@ -175,9 +182,10 @@ li a:focus {
     letter-spacing: 4px;
 }
 .subtitle {
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 200;
     color: rgb(87, 87, 87);
+    padding: 21px;
 }
 .containerContactBody {
     padding-top: 100px;
@@ -190,7 +198,7 @@ li a:focus {
 }
 .text-small {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
     color: white;
 }
 .text-large-off {
@@ -201,7 +209,7 @@ li a:focus {
 }
 .text-small-off {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
     color: rgb(10, 17, 31);
 }
 .contact-input, .contact-textarea {
