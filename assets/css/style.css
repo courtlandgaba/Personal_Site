@@ -51,6 +51,7 @@ li {
 .left {
     background-color: rgb(254, 254, 254);
     height: 700px;
+    border-right: 1px solid rgba(18, 18, 18, 0.19);
 }
 
 .nameContainer {
@@ -154,7 +155,7 @@ li a {
 }
 li a:hover,
 li a:focus {
-  background: #1ABC9C;
+  background: rgb(6, 57, 106);
   color: #fff;
 }
 
