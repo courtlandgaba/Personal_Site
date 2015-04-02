@@ -19,7 +19,7 @@ ul {
     margin: 40px 55px;
 }
 .containerSlide {
-    padding: 10px;
+    padding: 0;
 }
 .leftText {
     text-align: left;
@@ -180,7 +180,7 @@ li a:focus {
 .subtitle {
     font-size: 20px;
     font-weight: 200;
-    color: white;
+    color: rgb(87, 87, 87);
 }
 .containerContactBody {
     padding-top: 100px;
@@ -275,6 +275,8 @@ li a:focus {
     height: 350px
 
 }
+
+
 .slide1bottom {
     background-color: rgb(18,18,18);
     height: 350px
@@ -293,8 +295,22 @@ li a:focus {
     background-color: rgb(18,18,18);
 }
 
+.selfie {
+    width: auto;
+    border-radius: 200px;
+    padding: 10px;
+}
 
-
+.containerTitle {
+    background-color: rgb(214, 205, 189);
+    height: 70px;
+    padding-top: 0;
+    text-align: center;
+}
+.containerSubtitle {
+    background-color: rgb(249, 249, 249);
+    height: 70px;
+}
 
 ::-webkit-scrollbar {
     height: 12px;
