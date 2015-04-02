@@ -55,16 +55,13 @@ li {
     border-right: 1px solid rgba(18, 18, 18, 0.19);
 }
 
-.nameContainer {
-    height: 70px;
-    background-color: rgb(10, 17, 31);
-    padding: 5px 20px;
-}
 .name {
     font-size: 45px;
     font-weight: 100;
     color: white;
     letter-spacing: 4px;
+    height: 70px;
+    background-color: rgb(10, 17, 31);
 }
 
 
@@ -178,8 +175,8 @@ li a:focus {
     letter-spacing: 4px;
 }
 .subtitle {
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 100;
     color: rgb(87, 87, 87);
 }
 .containerContactBody {
@@ -195,6 +192,17 @@ li a:focus {
     font-size: 20px;
     font-weight: 100;
     color: white;
+}
+.text-large-off {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(10, 17, 31);
+    text-transform: uppercase;
+}
+.text-small-off {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(10, 17, 31);
 }
 .contact-input, .contact-textarea {
     width: 100%;
@@ -228,8 +236,8 @@ li a:focus {
 }
 
 .work-box {
-    background-color: rgb(7, 150, 230);
-    height: 250px;
+    background-color: white;
+    height: 280px;
 }
 
 
@@ -283,13 +291,13 @@ li a:focus {
 }
 
 .slide2 {
-    background-color: rgb(29, 153, 221);
+    background-color: white;
 }
 .slide3 {
     background-color: rgb(18,18,18);
 }
 .slide4 {
-    background-color: rgb(29, 153, 221);
+    background-color: white;
 }
 .slide5 {
     background-color: rgb(18,18,18);
@@ -302,7 +310,7 @@ li a:focus {
 }
 
 .containerTitle {
-    background-color: rgb(214, 205, 189);
+    background-color: rgb(199, 50, 38);
     height: 70px;
     padding-top: 0;
     text-align: center;
